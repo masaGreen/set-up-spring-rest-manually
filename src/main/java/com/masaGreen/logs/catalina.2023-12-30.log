@@ -1,0 +1,123 @@
+30-Dec-2023 23:34:35.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.17
+30-Dec-2023 23:34:35.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 23:31:38 UTC
+30-Dec-2023 23:34:35.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.17.0
+30-Dec-2023 23:34:35.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Dec-2023 23:34:35.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-1027-oem
+30-Dec-2023 23:34:35.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Dec-2023 23:34:35.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/macharia/programs/jdk-21.0.1
+30-Dec-2023 23:34:35.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.1+12-29
+30-Dec-2023 23:34:35.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Dec-2023 23:34:35.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen
+30-Dec-2023 23:34:35.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/macharia/programs/apache-tomcat-10.1.17
+30-Dec-2023 23:34:35.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Dec-2023 23:34:35.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Dec-2023 23:34:35.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Dec-2023 23:34:35.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Dec-2023 23:34:35.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Dec-2023 23:34:35.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/macharia/programs/apache-tomcat-10.1.17
+30-Dec-2023 23:34:35.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen
+30-Dec-2023 23:34:35.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/temp
+30-Dec-2023 23:34:35.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/conf/logging.properties
+30-Dec-2023 23:34:35.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Dec-2023 23:34:35.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/home/macharia/Downloads/idea/lib/idea_rt.jar=37831:/home/macharia/Downloads/idea/bin
+30-Dec-2023 23:34:35.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+30-Dec-2023 23:34:35.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+30-Dec-2023 23:34:35.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+30-Dec-2023 23:34:35.348 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+30-Dec-2023 23:34:36.342 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:34:36.461 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2099] milliseconds
+30-Dec-2023 23:34:36.667 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Dec-2023 23:34:36.668 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.17]
+30-Dec-2023 23:34:36.686 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/conf/Catalina/localhost/spring-rest-from-sratch.xml]
+30-Dec-2023 23:34:39.516 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Dec-2023 23:34:39.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/conf/Catalina/localhost/spring-rest-from-sratch.xml] has finished in [2,915] ms
+30-Dec-2023 23:34:39.609 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:34:39.648 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3185] milliseconds
+30-Dec-2023 23:46:17.365 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:46:17.368 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Dec-2023 23:46:17.453 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:46:17.469 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:46:28.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.17
+30-Dec-2023 23:46:28.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 23:31:38 UTC
+30-Dec-2023 23:46:28.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.17.0
+30-Dec-2023 23:46:28.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Dec-2023 23:46:28.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-1027-oem
+30-Dec-2023 23:46:28.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Dec-2023 23:46:28.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/macharia/programs/jdk-21.0.1
+30-Dec-2023 23:46:28.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.1+12-29
+30-Dec-2023 23:46:28.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Dec-2023 23:46:28.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen
+30-Dec-2023 23:46:28.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/macharia/programs/apache-tomcat-10.1.17
+30-Dec-2023 23:46:28.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Dec-2023 23:46:28.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Dec-2023 23:46:28.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Dec-2023 23:46:28.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Dec-2023 23:46:28.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Dec-2023 23:46:28.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/macharia/programs/apache-tomcat-10.1.17
+30-Dec-2023 23:46:28.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen
+30-Dec-2023 23:46:28.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/temp
+30-Dec-2023 23:46:28.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/conf/logging.properties
+30-Dec-2023 23:46:28.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Dec-2023 23:46:28.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/home/macharia/Downloads/idea/lib/idea_rt.jar=33541:/home/macharia/Downloads/idea/bin
+30-Dec-2023 23:46:28.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+30-Dec-2023 23:46:28.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+30-Dec-2023 23:46:28.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+30-Dec-2023 23:46:28.352 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+30-Dec-2023 23:46:29.305 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:46:29.352 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1697] milliseconds
+30-Dec-2023 23:46:29.449 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Dec-2023 23:46:29.450 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.17]
+30-Dec-2023 23:46:29.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/conf/Catalina/localhost/spring-rest-from-sratch.xml]
+30-Dec-2023 23:46:31.347 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Dec-2023 23:46:31.499 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+30-Dec-2023 23:46:32.548 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1045 ms
+30-Dec-2023 23:46:32.591 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/conf/Catalina/localhost/spring-rest-from-sratch.xml] has finished in [3,120] ms
+30-Dec-2023 23:46:32.597 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:46:32.623 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3267] milliseconds
+30-Dec-2023 23:46:52.143 WARNING [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /spring-rest-from-sratch/greet
+30-Dec-2023 23:46:52.167 WARNING [http-nio-8080-exec-1] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver.handleNoHandlerFoundException No endpoint GET /spring-rest-from-sratch/greet.
+30-Dec-2023 23:49:44.768 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:49:44.771 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Dec-2023 23:49:44.810 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:49:44.825 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:49:49.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.17
+30-Dec-2023 23:49:49.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 23:31:38 UTC
+30-Dec-2023 23:49:49.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.17.0
+30-Dec-2023 23:49:49.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Dec-2023 23:49:49.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.0-1027-oem
+30-Dec-2023 23:49:49.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Dec-2023 23:49:49.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/macharia/programs/jdk-21.0.1
+30-Dec-2023 23:49:49.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.1+12-29
+30-Dec-2023 23:49:49.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Dec-2023 23:49:49.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen
+30-Dec-2023 23:49:49.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/macharia/programs/apache-tomcat-10.1.17
+30-Dec-2023 23:49:49.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Dec-2023 23:49:49.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Dec-2023 23:49:49.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Dec-2023 23:49:49.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Dec-2023 23:49:49.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Dec-2023 23:49:49.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/macharia/programs/apache-tomcat-10.1.17
+30-Dec-2023 23:49:49.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen
+30-Dec-2023 23:49:49.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/temp
+30-Dec-2023 23:49:49.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/conf/logging.properties
+30-Dec-2023 23:49:49.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Dec-2023 23:49:49.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/home/macharia/Downloads/idea/lib/idea_rt.jar=46591:/home/macharia/Downloads/idea/bin
+30-Dec-2023 23:49:49.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+30-Dec-2023 23:49:49.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+30-Dec-2023 23:49:49.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+30-Dec-2023 23:49:49.077 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+30-Dec-2023 23:49:50.086 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:49:50.137 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1583] milliseconds
+30-Dec-2023 23:49:50.251 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Dec-2023 23:49:50.253 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.17]
+30-Dec-2023 23:49:50.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/conf/Catalina/localhost/spring-rest-from-sratch.xml]
+30-Dec-2023 23:49:52.295 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Dec-2023 23:49:52.425 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcher'
+30-Dec-2023 23:49:53.564 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1134 ms
+30-Dec-2023 23:49:53.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/macharia/tuts/spring-rest-from-sratch/src/main/java/com/masaGreen/conf/Catalina/localhost/spring-rest-from-sratch.xml] has finished in [3,300] ms
+30-Dec-2023 23:49:53.585 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:49:53.604 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3463] milliseconds
+30-Dec-2023 23:52:37.485 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:52:37.489 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Dec-2023 23:52:37.524 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Dec-2023 23:52:37.536 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

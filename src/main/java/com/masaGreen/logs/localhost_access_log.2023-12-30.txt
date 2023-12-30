@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:23:39:08 +0300] "GET /greet HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:23:39:13 +0300] "GET /favicon.ico HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:23:46:52 +0300] "GET /spring-rest-from-sratch/greet HTTP/1.1" 404 760
+0:0:0:0:0:0:0:1 - - [30/Dec/2023:23:49:59 +0300] "GET /spring-rest-from-sratch/greet HTTP/1.1" 200 23
